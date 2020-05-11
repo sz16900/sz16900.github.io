@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+.side-wrapper {
+    padding: 75px 65px 50px;
+}
+
+.about-container {
+    position: static;
+    width: 85%;
+}
+
+.about-header {
+    display: flex;
+    width: auto;
+    height: auto;
+    font-family: 'Museosans 900', sans-serif;
+    color: #4a4a4a;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 75px;
+}
+
+.sub-header {
+    width: 100%;
+    margin-top: 35px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    font-family: 'Museosans 100', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.social {
+    height: 24px;
+    margin-top: 45px;
+    margin-bottom: 65px;
+}
+
+.content-wrapper {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.porto-card {
+    height: 200px;
+    padding: 65px;
+    margin: 0;
+}
+
+.surfboardshop {
+    background-color: #f4b93d;
+}
+
+.lonelyrobot {
+    background-color: #005ba9;
+}
+
+.nytimes {
+    background-color: #b4ddbf;
+}
+
+.comunity {
+    height: auto;
+    padding: 65px 65px 65px 100px;
+    background-color: #f4f3f3;
+}
+
+h3 {
+    margin-bottom: 30px;
+    padding-right: 75px;
+    float: none;
+    font-family: 'Museosans 900', sans-serif;
+    color: #4a4a4a;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.date {
+    margin-bottom: 3px;
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.comunity-info {
+    margin-bottom: 45px;
+}
+
+.school {
+    font-family: 'Museosans 300', sans-serif;
+    color: #3b80fe;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.divider {
+    height: 10px;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    background-image: linear-gradient(180deg, rgba(74, 74, 74, .08), rgba(74, 74, 74, .08));
+}
+
+.footer-wrapper {
+    height: 1.5em;
+    padding: 32px 65px 25px;
+    background-color: #222;
+}
+
+.footer-p {
+    text-align: center;
+    font-family: 'Museosans 100', sans-serif;
+    color: #999;
+}
