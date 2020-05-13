@@ -14,7 +14,7 @@ img {
 
 a {
     text-decoration: none;
-    color: #009ee2;
+    color: #e55934;
 }
 
 .side-wrapper {
@@ -55,10 +55,8 @@ a {
     text-decoration: none;
 }
 
-.social {
-    height: 24px;
-    margin-top: 45px;
-    margin-bottom: 65px;
+.social-icon {
+    margin-right: 20px;
 }
 
 .content-wrapper {
@@ -76,15 +74,22 @@ a {
 }
 
 .surfboardshop {
-    background-color: #00bcd4;
+    background-color: #5bc0eb;
 }
 
 .tnw {
-    background-color: #b2ebf2;
+    background-color: #fde74c;
 }
 
 .lonelyrobot {
-    background-color: #ff5722;
+    background-color: #9bc53d;
+}
+
+.image-1,
+.image-2,
+.image-3 {
+    box-shadow: 0px 0px 20px black;
+
 }
 
 
@@ -95,7 +100,7 @@ a {
 }
 
 .title {
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 0px;
     font-family: 'Varela Round', sans-serif;
     color: black;
