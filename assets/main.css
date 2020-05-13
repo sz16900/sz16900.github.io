@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #e55934;
+}
+
+.side-wrapper {
+    padding: 75px 65px 50px;
+}
+
+.about-container {
+    position: static;
+    width: 85%;
+}
+
+.about-header {
+    display: flex;
+    width: auto;
+    height: auto;
+    font-family: 'Varela Round', sans-serif;
+    color: #4a4a4a;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 75px;
+}
+
+.sub-header {
+    width: 100%;
+    margin-top: 35px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.link-1,
+.link-2 {
+    text-decoration: none;
+}
+
+.social-icon {
+    margin-right: 20px;
+}
+
+.content-wrapper {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.porto-card {
+    padding: 65px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.surfboardshop {
+    background-color: #5bc0eb;
+}
+
+.tnw {
+    background-color: #fde74c;
+}
+
+.lonelyrobot {
+    background-color: #9bc53d;
+}
+
+.image-1,
+.image-2,
+.image-3 {
+    box-shadow: 0px 0px 20px black;
+
+}
+
+
+.comunity {
+    height: auto;
+    padding: 65px 65px 65px 100px;
+    background-color: #f4f3f3;
+}
+
+.title {
+    margin-top: 20px;
+    margin-left: 0px;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+}
+
+.sub-title {
+    margin-left: 0px;
+    float: none;
+    clear: none;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 12px;
+    }
+
+h3 {
+    margin-bottom: 30px;
+    padding-right: 75px;
+    float: none;
+    font-family: 'Varela Round', sans-serif;
+    color: #4a4a4a;
+    font-size: 22px;
+    line-height: 20px;
+}
+.date {
+    margin-bottom: 3px;
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.comunity-info {
+    margin-bottom: 45px;
+}
+
+.school {
+    font-family: 'Varela Round', sans-serif;
+    color: #3b80fe;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.divider {
+    height: 10px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background-image: linear-gradient(180deg, rgba(74, 74, 74, .08), rgba(74, 74, 74, .08));
+}
+
+.footer-wrapper {
+    height: 1.5em;
+    padding: 32px 65px 25px;
+    background-color: #222;
+}
+
+.footer-p {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: #999;
+}
+
+@media screen and (min-width: 800px) {
+    .side-wrapper {
+        position: fixed;
+        width: 40%;
+        margin-left: 60%;
+    }
+
+    .content-wrapper{
+        width: 60%;
+        margin-right: 60%;
+    }
+
+    .porto-card {
+        height: 100vh;
+    }
+  }
