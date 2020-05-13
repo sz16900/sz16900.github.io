@@ -8,6 +8,11 @@ body {
     color: #333;
 }
 
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
 .side-wrapper {
     padding: 75px 65px 50px;
 }
@@ -41,6 +46,17 @@ body {
     line-height: 26px;
 }
 
+.link-1 {
+    color: #009ee2;
+    text-decoration: none;
+
+}
+
+.link-2 {
+    color: #eabad8;
+    text-decoration: none;
+}
+
 .social {
     height: 24px;
     margin-top: 45px;
@@ -53,9 +69,12 @@ body {
 }
 
 .porto-card {
-    height: 200px;
     padding: 65px;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .surfboardshop {
@@ -66,7 +85,7 @@ body {
     background-color: #005ba9;
 }
 
-.nytimes {
+.tnw {
     background-color: #b4ddbf;
 }
 
@@ -74,6 +93,27 @@ body {
     height: auto;
     padding: 65px 65px 65px 100px;
     background-color: #f4f3f3;
+}
+
+.title {
+    margin-top: 5px;
+    margin-left: 0px;
+    font-family: 'Museosans 500', sans-serif;
+    color: #fff;
+}
+
+.break {
+    flex-basis: 100%;
+}
+
+.sub-title {
+    margin-left: 0px;
+float: none;
+clear: none;
+font-family: 'Museosans 100', sans-serif;
+color: #fff;
+font-size: 12px;
+line-height: 12px;
 }
 
 h3 {
@@ -85,7 +125,6 @@ h3 {
     font-size: 22px;
     line-height: 20px;
 }
-
 .date {
     margin-bottom: 3px;
     color: #999;
@@ -108,7 +147,7 @@ h3 {
 
 .divider {
     height: 10px;
-    margin-top: 0px;
+    margin-top: 45px;
     margin-bottom: 45px;
     background-image: linear-gradient(180deg, rgba(74, 74, 74, .08), rgba(74, 74, 74, .08));
 }
@@ -124,3 +163,20 @@ h3 {
     font-family: 'Museosans 100', sans-serif;
     color: #999;
 }
+
+@media screen and (min-width: 800px) {
+    .side-wrapper {
+        position: fixed;
+        width: 40%;
+        margin-left: 60%;
+    }
+
+    .content-wrapper{
+        width: 60%;
+        margin-right: 60%;
+    }
+
+    .porto-card {
+        height: 100vh;
+    }
+  }
