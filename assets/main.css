@@ -73,6 +73,11 @@ a {
     flex-direction: column;
 }
 
+.saltylifestyle {
+    background-color: goldenrod;
+
+}
+
 .surfboardshop {
     background-color: #06d6a0;
 }
